@@ -1,19 +1,19 @@
 var fs=require("fs")
-var content='hello how are you'
-fs.writeFile("write.txt",content,'utf-8',writingFile)
+var content='hi how are you'
+fs.writeFileSync("write.txt",content,'utf-8')
 
-function writingFile(error)
-{
+// function writingFile(error)
+// {
 
-    if(error)
-        {
+//     if(error)
+//         {
 
-            console .log(error)
-        }
-        else
-            {
-                console.log('file Writting completed')
-            }
+//             console .log(error)
+//         }
+//         else
+//             {
+//                 console.log('file Writting completed')
+//             }
 
-}
-console.log('done')
+// }
+// console.log('done')
