@@ -23,7 +23,8 @@ const p3 =new Promise((resolve,reject)=>{
     setTimeout(()=>{
 
         console.log('Async operation two running')
-        resolve('implemented consequtive callback')
+        //resolve('implemented consequtive callback')
+        reject('error')
     },3000)
 })
 

@@ -22,8 +22,8 @@ const mypromise =new Promise((resolve,reject)=>{
  
 setTimeout(()=>{
 
-//resolve('bye bye good luck')
-  reject('error')  
+//resolve('welcome to promise tutorial')
+reject('error')  
 })
 },3000)
 

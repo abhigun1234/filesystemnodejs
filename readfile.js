@@ -1,5 +1,5 @@
 var fs=require("fs")
-fs.readFile("myfile.txt","utf8",reciveFileSystem,)
+fs.readFile("myfile.txt","utf8",reciveFileSystem)
 function reciveFileSystem(error,data)
 {
   
