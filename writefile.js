@@ -1,6 +1,6 @@
 var fs=require("fs")
-var content='Hello welcome to node js fs module writting file sync'
-fs.writeFileSync("write.txt",content,'utf-8')
+var content='i dont like it'
+fs.writeFile("write.txt",content,'utf-8',writingFile)
 
 function writingFile(error)
 {

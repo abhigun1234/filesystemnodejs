@@ -3,10 +3,10 @@
 // express 
 //fs module for achiving the task
 
-var app =require('express')
+// var app =require('express')
 //app.get('/fetchdata')
 var fs =require('fs')
-fs.rename('bye.txt','myworld.txt',renameFile)
+fs.rename('one.txt','oneone.txt',renameFile)
 function renameFile(error)
 {
 

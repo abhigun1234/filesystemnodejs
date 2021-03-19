@@ -1,1 +1,1 @@
-Hello welcome to node js fs module writting file sync
+i dont like it

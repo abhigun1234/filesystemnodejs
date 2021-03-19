@@ -1,19 +1,19 @@
-// const  p =new Promise((resolve,reject)=>{
+const  p =new Promise((resolve,reject)=>{
 
 
-//     //async operation 
+    //async operation 
     
-//     setTimeout(()=>{
+    setTimeout(()=>{
 
-//         resolve("hello")
-//     },3000)
+        resolve("hello")
+    },3000)
     
 
-// })
-// p.then(result =>console.log("result",result)).catch(error=>{
+})
+p.then(result =>console.log("result",result)).catch(error=>{
 
-//     consol.log(' erroe message')
-// })
+    consol.log(' erroe message')
+})
 
 //step1 
 

@@ -1,18 +1,21 @@
 var http=require('http')
 
-var callback=function(req,res)
+// var callback=function(req,res)
+// {
+
+//     console.log("connected to server on 3000 port")
+//  res.end("Hello Everone welcome to node js tutorial")
+// }
+//https://github.com/abhigun1234/filesystemnodejs/blob/master/promisesequence.js
+http.createServer(function(req,res)
 {
 
-    console.log("connected to server on 3000 port")
- res.end("Hello Everone welcome to node js tutorial")
-}
-http.createServer(function(req,res)
-{https://github.com/abhigun1234/filesystemnodejs/blob/master/promisesequence.js
+    console.log("connected to server on 3500 port")
+    jsonObj={"name":"abhishek"}
+ res.end("Welcome to mean stack batch node js http module ")
 
-    console.log("connected to server on 2500 port")
- res.end("Welcome to September")
 }).listen(3500)
-http.get('/hello',function(req,res)
-{res.end("hello")
-}
-)
+// http.get('/hello',function(req,res)
+// {res.end("hello")
+// }
+// )

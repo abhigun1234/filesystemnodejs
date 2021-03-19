@@ -2,7 +2,7 @@
 //write the content on next file
 
 var fs=require('fs')
-fs.readFile('fileone.txt','utf8',readingFile)
+fs.readFile('one.txt','utf8',readingFile)
 function readingFile(error,data)
 {
     if(error)
@@ -14,11 +14,11 @@ function readingFile(error,data)
             {
                 console.log(data)
                 //write content on byebye.txt
-                fs.writeFile('filetwo.txt',data,'utf8',writeFile)
+                fs.writeFile('two.txt',data,'utf8',writeFiles)
             }
 
 }
-function writeFile(error)
+function writeFiles(error)
 {
     if(error)
         {
