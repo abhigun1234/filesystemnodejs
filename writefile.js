@@ -1,14 +1,14 @@
 var fs=require("fs")
-var content='i dont like it'
-fs.writeFile("write.txt",content,'utf-8',writingFile)
+var content='I know you are there'
+fs.writeFile("showcontent.txt",content,'utf-8',writingFile)
 
-function writingFile(error)
+function writingFile(error1)
 {
 
-    if(error)
+    if(error1)
         {
 
-            console .log(error)
+            console .log(error1)
         }
         else
             {

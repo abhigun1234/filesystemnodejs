@@ -1,5 +1,5 @@
 var fs=require("fs")
-fs.unlink("oneone.txt",fileUnlinkCompleted);
+fs.unlink("mystory.txt",fileUnlinkCompleted);
 function fileUnlinkCompleted(error)
 {
     if(error)

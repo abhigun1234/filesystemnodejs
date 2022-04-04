@@ -12,9 +12,9 @@ http.createServer(function(req,res)
 
     console.log("connected to server on 3500 port")
     jsonObj={"name":"abhishek"}
- res.end("Welcome to mean stack batch node js http module ")
+ res.end("hi everone enjoy the day ")
 
-}).listen(3500)
+}).listen(4000)
 // http.get('/hello',function(req,res)
 // {res.end("hello")
 // }

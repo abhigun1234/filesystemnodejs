@@ -11,7 +11,7 @@ var fs=require("fs")
 fs.readFile("book1.txt",'utf-8',readFileTxt)
 console.log("hello")
 
-function readFileTxt(error,data){
-   console.log(error) 
-   console.log(data)
+function readFileTxt(error1,data1){
+   console.log(error1) 
+   console.log(data1)
 }

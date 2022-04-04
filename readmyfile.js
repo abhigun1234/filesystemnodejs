@@ -1,6 +1,7 @@
 var fs=require('fs')
 var content=' welcome'
 var data=fs.readFile('welcome.txt','utf-8',readFile)
+console.log("hello")
 // function readFile(error,data)
 // {
   
