@@ -1,6 +1,6 @@
 var fs=require("fs")
 var content='I know you are there'
-fs.writeFile("showcontent.txt",content,'utf-8',writingFile)
+fs.writeFile("mynew.txt",content,'utf-8',writingFile)
 
 function writingFile(error1)
 {

@@ -1,21 +1,29 @@
 var http=require('http')
+const server=http.createServer((req,res)=>{
+    if(req.url==='/'){
 
-// var callback=function(req,res)
-// {
+        res.write("welocme all")
+        res.end()
+    }
+})
+server.listen("2456")
+console.log("server is running in the port 2456")
 
-//     console.log("connected to server on 3000 port")
-//  res.end("Hello Everone welcome to node js tutorial")
-// }
-//https://github.com/abhigun1234/filesystemnodejs/blob/master/promisesequence.js
-http.createServer(function(req,res)
-{
+// const server=http.createServer((req,res)=>{
+//     console.log("req",req.url)
+//     if(req.url==='/'){
+//         res.write('Hello World')
+//         res.end()
+//     }
+//     if(req.url==='/hello'){
+//         res.write("hello")
+//         res.end()
+//     }
+// })
+// http.get(()=>{
+    
+// })
+// server.listen(3000)
+// console.log("listining in the port 3000----")
 
-    console.log("connected to server on 3500 port")
-    jsonObj={"name":"abhishek"}
- res.end("hi everone enjoy the day ")
-
-}).listen(4000)
-// http.get('/hello',function(req,res)
-// {res.end("hello")
-// }
-// )
+// express http

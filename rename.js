@@ -6,11 +6,11 @@
 // var app =require('express')
 //app.get('/fetchdata')
 var fs =require('fs')
-fs.rename('book2.txt','mybook.txt',renameFile)
+fs.rename('story.txt','storymybook.txt',renameFile)
 function renameFile(error1)
 {
 
-    if(error)
+    if(error1)
         {
             console.log('error',error1)
         }

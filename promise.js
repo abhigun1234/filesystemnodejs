@@ -1,37 +1,37 @@
-const  p =new Promise((resolve,reject)=>{
+// const  p =new Promise((resolve,reject)=>{
 
 
-    //async operation 
+//     //async operation 
     
-    setTimeout(()=>{
+//     setTimeout(()=>{
 
-        resolve("hello")
-    },3000)
+//         resolve("hello")
+//     },3000)
     
 
-})
-p.then(result =>console.log("result",result)).catch(error=>{
+// })
+// p.then(result =>console.log("result",result)).catch(error=>{
 
-    consol.log(' erroe message')
-})
+//     consol.log(' erroe message')
+// })
 
-//step1 
+// //step1 
 
-const mypromise =new Promise((resolve,reject)=>{
-//async operation
+// const mypromise =new Promise((resolve,reject)=>{
+// //async operation
  
-setTimeout(()=>{
+// setTimeout(()=>{
 
-//resolve('welcome to promise tutorial')
-reject('error')  
-})
-},3000)
+// //resolve('welcome to promise tutorial')
+// reject('error')  
+// })
+// },3000)
 
-//
-mypromise.then(result=>{
-   console.log('data',result)
+// //
+// mypromise.then(result=>{
+//    console.log('data',result)
 
-}).catch(error=>{
+// }).catch(error=>{
 
-    console.log(error)
-})
+//     console.log(error)
+// })
